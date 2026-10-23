@@ -1,0 +1,8 @@
+{
+  "original_question": "Where was Albert Einstein born?",
+  "agent_answer": "Albert Einstein was born in Ulm, in the Kingdom of Wurttemberg in the German Empire.",
+  "eval_generated_question": "What is the birthplace of Albert Einstein?",
+  "is_noncommittal": 0,
+  "cosine_similarity": 0.9423,
+  "final_relevance_score": 0.9423
+}

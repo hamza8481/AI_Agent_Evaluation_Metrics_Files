@@ -1,0 +1,9 @@
+Setup and Deployment Instructions
+
+1. Import the Workflow: Upload AI_Agent_Evaluation_Metrics.json to your n8n workspace.
+2. Credentials Setup: 
+   a. Connect your OpenAI API Key (used for chat models and the HTTP request for embeddings).
+   b. Connect your Google Sheets API.
+3. Dataset Setup: 
+   a. Create a Google Sheet with a column for input (the questions to test).
+   b. Update the Evaluation Trigger, Update Output, and Update Metrics nodes with your new Sheet ID.

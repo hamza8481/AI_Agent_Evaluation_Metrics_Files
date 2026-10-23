@@ -1,0 +1,25 @@
+DATA FETCH
+[Google Sheets: Fetch Input Question]
+                |
+                v
+AGENT PROCESSING
+[Target AI Agent: Generates Answer]
+                |
+                v
+REVERSE QUESTIONING
+[Eval Agent: Reads Answer, Formulates New Question]
+                |
+                v
+VECTORIZATION
+[HTTP Request: Get Embeddings for BOTH Questions]
+                |
+                v
+SCORING
+[JS Node: Calculate Vector Cosine Similarity]
+                |
+                v
+[Set Node: Apply Noncommittal Penalty]
+                |
+                v
+METRIC RECORDING
+[Google Sheets: Record Final Relevance Score]
